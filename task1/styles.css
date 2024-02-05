@@ -1,0 +1,268 @@
+.page1{
+    background-image: url("The cycling life.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home,.about,.contact,.sign{
+    font-family: "Montserrat ExtraLight 200", sans-serif;
+    
+}
+a:link {
+    color:rgb(207, 206, 203)
+  }
+  
+  a:visited {
+    color: rgb(223, 223, 223);
+  }
+  
+  a:hover {
+    color: rgb(194, 194, 194);
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .top_links{
+   
+    margin-left: 37%;
+    align-items: center;
+    padding-top: 1px;
+    margin-top: -45px;
+  }
+  .home{
+    padding-right: 70px;
+  }
+  .about{
+    padding-right: 70px;
+  }
+ .div_box{
+    /* outline: 2px rgb(253, 253, 253);
+    height: 10px;
+    width: 100px; */
+    margin-left: 70%;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    background-color: none;
+    border-radius:20%;
+    position:absolute; 
+    left:70px;
+    top:40px;
+ }
+ .div_box1{
+    margin-left: 70%;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    background-color: rgb(71, 70, 70);
+    border-radius:20%;
+    position:absolute; 
+    left:190px;
+    top:40px;
+ }
+.sign{
+    position:absolute; 
+    left:19px;
+    top:3px;
+}
+p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: #ffffff;
+  size: 50%;
+  text-align: left;
+  margin-right: 40px;
+  margin-right: 40.93%;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+h1{
+  color: #ffffff;
+  font-family: 'Nova Square';
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.btn{
+  color: rgb(154, 156, 156);
+  background-color: rgb(25, 112, 242);
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+}
+.page2{
+  background-color: rgb(65, 64, 64);
+  height: 100vh;
+}
+.box_div{
+  height:40%;
+  align-items: center;
+  
+}
+.boxes{
+/* padding: 3%; */
+padding-left: 15%;
+}
+.hollow-box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(255, 253, 248); /* Border style */
+  background-color: transparent; /* Transparent background */
+  margin: 30px;
+  display: inline-block;
+  line-height: 20px; /* Center text vertically */
+}
+.no{
+  font-size: 80px;
+  position: relative;
+  top:20px;
+  color: rgb(231, 203, 99);
+
+}
+.text{
+  font-size: 18px;
+  color: #ffffff;
+  position: relative;
+  top:50px;
+  
+ 
+}
+.hb{
+position: relative;
+top:20px;
+}
+.txt{
+  position: relative;
+  top: 50px;
+  left: 0px;
+}
+.aboutc{
+  height: 100px;
+  width: 700px;
+  margin-left: 22%;
+  text-align: center;
+}
+.aboutus{
+position: relative;
+top:20px;
+font-family: "Montserrat";
+font-size: 40px;
+font-weight: 100;
+color: #ffffff;
+}
+.aboutt{
+position: relative;
+top:-90px;
+left: 40px;
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 80px;
+color: #ffffff;
+text-align: center;
+height: 40%;
+width:90%;
+}
+.page3{
+  background-color: rgb(103,102,101);
+  height: 100vh;
+}
+.slider {
+  width: 300px;
+  overflow: hidden;
+}
+
+.slide {
+  width: 300px;
+  /* display: inline-block; */
+  transition: transform 0.0s ease-in-out;
+}
+
+.imgs {
+  width: 100%;
+  height: auto;
+}
+
+/* Additional styling for the animation */
+.slide:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+
+/* Automatic sliding animation */
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
+
+.slider {
+  position: relative;
+  animation: slide 10s infinite; /* Adjust duration for sliding interval */
+  bottom:818px;
+}
+@keyframes slide-right {
+  0% { transform: translateX(0%); }
+  33% { transform: translateX(100%); }
+  66% { transform: translateX(200%); }
+  100% { transform: translateX(0%); }
+}
+
+/* Apply animation for sliding from right to left */
+.slider-right {
+  animation: slide-right 10s infinite;
+  position: relative;
+  left:900px;
+  bottom:1405px;
+ 
+}
+.contactd{
+ 
+ height: 100px;
+ width: 100px;
+ position: relative;
+top:60px;
+left: 250px;
+height: 100px;
+width: 700px;
+
+text-align: center;
+}
+.contacts{
+  height: 700px;
+  width: 500px;
+ position: relative;
+  top:60px;
+  left: 340px;
+  align-items: center;
+}
+.contactus{
+  position: relative;
+top:20px;
+font-family: "Montserrat";
+font-size: 40px;
+font-weight: 100;
+color: #ffffff;
+}
+i{
+  
+ color: #ffffff;
+  width:100px;
+}
+
+.copy{
+  font-family: "Montserrat";
+   font-size: 10px;
+   margin-left: 140px;
+}
+.cele{
+  margin-left: 80px;
+}
